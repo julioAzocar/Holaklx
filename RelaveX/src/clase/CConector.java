@@ -38,6 +38,12 @@ public class CConector {
        
 //conn = DriverManager.getConnection("jdbc:mysql://172.17.0.1:32771/arbolserviciosv3", "root", "1505");//local
 
+
+//            conn = DriverManager.getConnection("jdbc:mysql://localhost/arbolserviciosv3", "root", "");//local
+//            conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:33061/bd1", "root", "secret");//docker local
+       
+//conn = DriverManager.getConnection("jdbc:mysql://172.17.0.1:32771/arbolserviciosv3", "root", "1505");//local
+
 conn = DriverManager.getConnection("jdbc:mysql://localhost/arbolserviciosv3", "root", "1234");//local
 
            if (conn!=null) {
